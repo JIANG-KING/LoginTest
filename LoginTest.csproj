@@ -103,12 +103,14 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
+    <Content Include="loginmain.aspx" />
     <Content Include="LoginTest.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="DatabaseTest.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -119,6 +121,13 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="loginmain.aspx.cs">
+      <DependentUpon>loginmain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loginmain.aspx.designer.cs">
+      <DependentUpon>loginmain.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LoginTest.aspx.cs">
       <DependentUpon>LoginTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +136,7 @@
       <DependentUpon>LoginTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show\Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

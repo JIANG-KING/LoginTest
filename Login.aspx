@@ -65,6 +65,9 @@
                 </tr>
             </table>
         </div>
+        <p>
+            <asp:Label ID="CopyRightLabel" runat="server" Text="Copyright © 1999-2021 Yunking. All rights reserved."></asp:Label>
+        </p>
     </form>
 </body>
 </html>
