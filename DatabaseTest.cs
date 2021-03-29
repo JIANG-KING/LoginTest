@@ -11,7 +11,7 @@ namespace LoginTest
 
     public class DatabaseTest
     {
-        public static string con = "Server=yun2333.top;Database=test;user id=sa;pwd=Jy1019878449";  //这里是保存连接数据库的字符串  
+        public static string con = "";  //这里是保存连接数据库的字符串  
         public static SqlConnection sqlCnt = new SqlConnection(con);
         public SqlDataAdapter SqlLogin(string username, string password)
         {
